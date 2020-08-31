@@ -2,13 +2,12 @@
   "expo": {
     "name": "ArticlesListApp",
     "slug": "ArticlesListApp",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "version": "1.1.0",
+    "icon": "./assets/walt.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/sunglasses.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,7 +19,7 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/walt.png"
     }
   }
 }
