@@ -10,7 +10,7 @@ function ItsAlwaysSunny({ navigation }) {
         />
         <Text style={styles.title}>It's Always Sunny In Philadelphia</Text>
         <Text style={styles.date}>2005</Text>
-        <Text style={styles.description}>"This dark comedy follows the owners of a bar in south Phila and all the mischief they get themselves into."</Text>
+        <Text style={styles.description}>This dark comedy follows the owners of a bar in south Phila and all the mischief they get themselves into.</Text>
       </View>
     );
   }
