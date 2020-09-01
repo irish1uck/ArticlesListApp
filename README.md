@@ -4,11 +4,11 @@ Articles using FlatList
 
 Screenshot:
 [![Screen Shot 2020-08-31 at 11.49.46 AM](https://i.imgur.com/zsB7whv.png)]
-[![Screen Shot 2020-08-31 at 10.39.02 AM](https://i.imgur.com/aBMsCHU.png)]
+[![Screen Shot 2020-08-31 at 9.31.30 PM](https://i.imgur.com/5Wnzf2E.png)]
 [![Screen Shot 2020-08-31 at 11.50.25 AM](https://i.imgur.com/ugdaHjp.png)]
-[![Screen Shot 2020-08-31 at 11.50.34 AM](https://i.imgur.com/yAgSD4Z.png)]
-[![Screen Shot 2020-08-31 at 11.50.44 AM](https://i.imgur.com/1psj7xk.png)]
-[![Screen Shot 2020-08-31 at 11.51.09 AM](https://i.imgur.com/nvUwHFs.png)]
-[![Screen Shot 2020-08-31 at 11.51.39 AM](https://i.imgur.com/1b0ahET.png)]
-[![Screen Shot 2020-08-31 at 11.52.06 AM](https://i.imgur.com/Jhl7Tib.png)]
-[![Screen Shot 2020-08-31 at 11.52.19 AM](https://i.imgur.com/7vTjcYG.png)]
+[![Screen Shot 2020-08-31 at 9.31.41 PM](https://i.imgur.com/pAgzKfq.png)]
+[![Screen Shot 2020-08-31 at 9.31.51 PM](https://i.imgur.com/6uP3GGo.png)]
+[![Screen Shot 2020-08-31 at 9.32.04 PM](https://i.imgur.com/U4FcWTl.png)]
+[![Screen Shot 2020-08-31 at 9.32.18 PM](https://i.imgur.com/t3GqRJk.png)]
+[![Screen Shot 2020-08-31 at 9.32.33 PM](https://i.imgur.com/XIj4F7K.png)]
+[![Screen Shot 2020-08-31 at 9.32.48 PM](https://i.imgur.com/ZnxdQvB.png)]
