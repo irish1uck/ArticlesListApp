@@ -1,8 +1,9 @@
 # ArticlesListApp
 Articles using FlatList
 
+App Screenshots:
 
-Screenshot:
+
 [![Screen Shot 2020-08-31 at 11.49.46 AM](https://i.imgur.com/zsB7whv.png)]
 [![Screen Shot 2020-08-31 at 9.31.30 PM](https://i.imgur.com/5Wnzf2E.png)]
 [![Screen Shot 2020-08-31 at 11.50.25 AM](https://i.imgur.com/ugdaHjp.png)]
