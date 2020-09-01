@@ -9,22 +9,32 @@ function GameOfThrones({ navigation }) {
           style={styles.images} 
         />
         <Text style={styles.title}>Game of Thrones</Text>
-        <Text>2011</Text>
-        <Text style={styles.description}>Seven kingdoms and one king rules them all. The one true king. Did I mention there are dragons?</Text>
+        <Text style={styles.date}>2011</Text>
+        <Text style={styles.description}>Seven kingdoms and one king rules them all. The one true king. Did I mention there are dragons? There are also 'White Walkers' coming with the Winter to kill everyone.</Text>
       </View>
     );
   }
 
 const styles = StyleSheet.create({
     title: {
-        fontSize: 20,
-        marginTop: 2,
-        textAlign: "center",
-        fontWeight: "700",
+      fontSize: 35,
+      textAlign: "center",
+      marginTop: 2,
+      fontWeight: "700",
+      color: '#fff',
+      fontStyle: "italic",
+      textDecorationLine: "underline",
     },
     description: {
-        fontSize: 15,
-        marginBottom: 7
+      fontSize: 20,
+      marginBottom: 7,
+      textAlign: 'center',
+      padding: 10,
+      borderLeftWidth: 2,
+      borderRightWidth: 2,
+      borderColor: "#fff",
+      borderRadius: 9,
+      color: "#fff",
     },
     pages: {
         alignItems: 'center',
@@ -33,8 +43,16 @@ const styles = StyleSheet.create({
         backgroundColor: '#87ceeb',
       },
       images: {
-        width: 400,
+        width: 390,
         height: 300,
+        borderColor: "#fff",
+        borderWidth: 2,
+        borderRadius: 9,
+      },
+      date: {
+        fontSize: 25,
+        fontWeight: "500",
+        color: "#fff",
       },
   });
 

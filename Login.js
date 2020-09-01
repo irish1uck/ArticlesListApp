@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { 
     StyleSheet,
@@ -6,11 +7,14 @@ import {
     TextInput, 
     Button,
   } from 'react-native';
+  
 
 function Login({ navigation }) {
     return (
       <View style={styles.container}>
-          <Text style={styles.welcome}>Welcome to Adam's App!</Text>
+          <Text style={styles.welcome}>Welcome to</Text>
+          <Text style={styles.welcome}>Adam's Favorite TV Shows</Text>
+          <Text style={styles.welcome}>React Native App</Text>
           <TextInput 
             style={styles.input} 
             placeholder="Username"/>
@@ -61,9 +65,11 @@ function Login({ navigation }) {
       welcome: {
         fontSize: 30,
         textAlign: 'center',
-        margin: 15,
+        margin: 2,
         fontStyle: 'italic',
         color: '#fff',
+        textDecorationLine: "underline",
+        fontWeight: "700",
       },
       input: {
         backgroundColor: '#fff',

@@ -16,7 +16,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Home" component={Home} options={{ title: 'Home'}}/>
+        <Stack.Screen name="Home" component={Home} options={{ title: "Adam's Favorite TV Shows" }}/>
         <Stack.Screen name="1111" component={BreakingBad} options={{ title: "Breaking Bad - AMC"}} />
         <Stack.Screen name="1112" component={GameOfThrones} options={{ title: "Game of Thrones - HBO"}} />
         <Stack.Screen name="1113" component={SiliconValley} options={{ title: "Silicon Valley - HBO"}} />

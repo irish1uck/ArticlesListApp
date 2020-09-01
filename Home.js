@@ -9,6 +9,7 @@ import {
 } from "react-native";
 
 
+
 const DATA = [
     {
       id: "1111",
@@ -52,7 +53,7 @@ const DATA = [
         </View>
       </TouchableWithoutFeedback>
     );
-  
+      
     return (
       <SafeAreaView style={styles.container}>
         <FlatList
@@ -65,29 +66,37 @@ const DATA = [
   }
 
   const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#00FFFF',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
     listItem: {
-        backgroundColor: '#00FFFF',
+        backgroundColor: '#87ceeb',
         borderStyle: "solid",
-        borderWidth: 1,
-        margin: 8,
-        padding: 10,
+        borderWidth: 2,
+        marginLeft: 6,
+        marginRight: 6,
+        marginTop: 3,
+        padding: 6,
+        borderRadius: 9,
+        borderColor: '#fff'
       },
       title: {
-        fontSize: 20,
-        marginTop: 2,
+        fontSize: 30,
         textAlign: "center",
         fontWeight: "700",
+        color: '#fff',
+        fontStyle: "italic",
+        textDecorationLine: "underline",
       },
       description: {
         fontSize: 15,
-        marginBottom: 7
+        marginBottom: 7,
+        color: '#fff',
+        textAlign: 'center',
       },
-      container: {
-        flex: 1,
-        backgroundColor: '#87ceeb',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
   });
 
 export default Home

@@ -9,8 +9,8 @@ function SiliconValley({ navigation }) {
           style={styles.images} 
         />
         <Text style={styles.title}>Silicon Valley</Text>
-        <Text>2014</Text>
-        <Text style={styles.description}>A group of coders make it big when Richards creates a very popular app called 'Pied Piper'.</Text>
+        <Text style={styles.date}>2014</Text>
+        <Text style={styles.description}>A group of coders make it big when Richards code for a file compression app called 'Pied Piper' breaks the record for fastest data transfer.</Text>
       </View>
     );
   }
@@ -19,14 +19,24 @@ function SiliconValley({ navigation }) {
 
 const styles = StyleSheet.create({
     title: {
-        fontSize: 20,
-        marginTop: 2,
-        textAlign: "center",
-        fontWeight: "700",
+      fontSize: 35,
+      marginTop: 2,
+      textAlign: "center",
+      fontWeight: "700",
+      color: '#fff',
+      fontStyle: "italic",
+      textDecorationLine: "underline",
     },
     description: {
-        fontSize: 15,
-        marginBottom: 7
+      fontSize: 20,
+      marginBottom: 7,
+      textAlign: 'center',
+      padding: 10,
+      borderLeftWidth: 2,
+      borderRightWidth: 2,
+      borderColor: "#fff",
+      borderRadius: 9,
+      color: "#fff",
     },
     pages: {
         alignItems: 'center',
@@ -35,8 +45,16 @@ const styles = StyleSheet.create({
         backgroundColor: '#87ceeb',
       },
       images: {
-        width: 400,
+        width: 390,
         height: 300,
+        borderColor: "#fff",
+        borderWidth: 2,
+        borderRadius: 9,
+      },
+      date: {
+        fontSize: 25,
+        fontWeight: "500",
+        color: "#fff",
       },
   });
 

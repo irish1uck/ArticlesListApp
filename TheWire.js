@@ -9,22 +9,32 @@ function TheWire({ navigation }) {
           style={styles.images} 
         />
         <Text style={styles.title}>The Wire</Text>
-        <Text>2002</Text>
-        <Text style={styles.description}>Gang life in Baltimore is a dangerous, unpredictable life. The narcotics division of the police department uses wire taps to take down the main players.</Text>
+        <Text style={styles.date}>2002</Text>
+        <Text style={styles.description}>The streets of Baltimore are dangerous and unpredictable. The narcotics division of the Baltimore police department use wire taps to take down the drug kingpins and gangsters.</Text>
       </View>
     );
   }
 
   const styles = StyleSheet.create({
     title: {
-        fontSize: 20,
-        marginTop: 2,
-        textAlign: "center",
-        fontWeight: "700",
+      fontSize: 35,
+      textAlign: "center",
+      marginTop: 2,
+      fontWeight: "700",
+      color: '#fff',
+      fontStyle: "italic",
+      textDecorationLine: "underline",
     },
     description: {
-        fontSize: 15,
-        marginBottom: 7
+      fontSize: 20,
+      marginBottom: 7,
+      textAlign: 'center',
+      padding: 10,
+      borderLeftWidth: 2,
+      borderRightWidth: 2,
+      borderColor: "#fff",
+      borderRadius: 9,
+      color: "#fff",
     },
     pages: {
         alignItems: 'center',
@@ -33,8 +43,16 @@ function TheWire({ navigation }) {
         backgroundColor: '#87ceeb',
       },
       images: {
-        width: 400,
+        width: 390,
         height: 300,
+        borderColor: "#fff",
+        borderWidth: 2,
+        borderRadius: 9,
+      },
+      date: {
+        fontSize: 25,
+        fontWeight: "500",
+        color: "#fff",
       },
   });
 
