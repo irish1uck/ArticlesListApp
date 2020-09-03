@@ -36,13 +36,7 @@ const DATA = [
       title: "It's Always Sunny In Philadelphia",
       description: "This dark comedy follows the owners of a bar in south Phila and all the mischief they get themselves into."
     }
-  ]
-  const Item = ({ title }) => (
-    <View style={styles.item}>
-      <Text style={styles.title}>{title}</Text>
-    </View>
-  );
-  
+  ];
   
   function Home({ navigation }) {
     const renderItem = ({ item }) => (

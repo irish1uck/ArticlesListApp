@@ -85,7 +85,7 @@ function Login({ navigation }) {
         borderRadius: 5, 
       },
 
-  })
+  });
 
 
-export default Login
+export default Login;
