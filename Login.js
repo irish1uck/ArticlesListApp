@@ -1,5 +1,5 @@
 
-import React from 'react';
+import Reac, { useState } from 'react';
 import { 
     StyleSheet,
     Text, 
@@ -10,19 +10,21 @@ import {
   
 
 function Login({ navigation }) {
+    const [blank, setBlank] = useState("");
+    
     return (
+    
       <View style={styles.container}>
           <Text style={styles.welcome}>Welcome to</Text>
           <Text style={styles.welcome}>Adam's Favorite TV Shows</Text>
           <Text style={styles.welcome}>React Native App</Text>
           <TextInput 
             style={styles.input} 
-            placeholder="Username"/>
+            placeholder="Enter username here">{blank}</TextInput>
           <TextInput 
             style={styles.input} 
-            placeholder="Password"
-            secureTextEntry
-          />
+            placeholder="Enter password here"
+            secureTextEntry>{blank}</TextInput>
           <View style={styles.btnContainer}>
             <Button
               title="Login"
@@ -36,7 +38,10 @@ function Login({ navigation }) {
             <Button
               title="Sign up"           
               style={styles.button} 
-              onPress={() => alert("Sign up successful!")}
+              onPress={() => {
+                alert("Sign up successful!")
+                setBlank("")
+              }}
             >
               <Text style={styles.btnText}>Sign Up</Text>
             </Button>
