@@ -8,7 +8,7 @@ import TheWire from './TheWire';
 import GameOfThrones from './GameOfThrones';
 import BreakingBad from './BreakingBad';
 import SiliconValley from './SiliconValley';
-import Demo from "./Demo";
+{/* import Demo from "./Demo"; */}
 
 const Stack = createStackNavigator();
 
@@ -16,7 +16,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Demo" component={Demo} />
+  {/* <Stack.Screen name="Demo" component={Demo} /> */}
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Home" component={Home} options={{ title: "Adam's Favorite TV Shows" }}/>
         <Stack.Screen name="1111" component={BreakingBad} options={{ title: "Breaking Bad - AMC"}} />
